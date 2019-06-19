@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+/************HEADER*************/
+
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #3490de;
+}
+
+.header_container button {
+    font-family: 'Acme', sans-serif;
+    background-color: #6fe7dd;
+    border-color: #6fe7dd;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+.header_container input {
+    height: 30px;
+}
+
+.header_container h1 {
+    font-family: 'Courgette', cursive;
+    color: #fff;
+}
+
+
+/************MAIN*************/
+
+.main_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    background-color: #6fe7dd;
+    font-family: 'Acme', sans-serif;
+    color: #fff;
+}
+
+/************CURRENT CONDITION*************/
+
+.current_condition {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    height: 220px;
+    width: 190px;
+    margin: 10px;
+    background-color: #3490de;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.condition_header {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.condition_header h2 {
+    
+    
+}
+
+.condition_header button {
+     width: 20px;
+     height: 20px;
+     background-color: #ff5a62;
+     border-color: #ff5a62;
+     cursor: pointer;
+     border-radius: 5px;
+    
+}
+
+.current_condition img {
+    height: 110px;
+   
+}
+
+
+
+
+/************FOOTER*************/
+
+.footer_container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: #6639a6;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
