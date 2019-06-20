@@ -45,6 +45,8 @@ const UIController = (() => {
 
 })();
 
+var  key = "U01cebp2Megdz7P8KbN2nG6uYgGaGgDh";
+
 const WeatherController = (() => {
 
     class City {
@@ -193,7 +195,7 @@ const controller = ((UICtrl, WCtrl) => {
 
 })(UIController, WeatherController);
 
-var  key = "U01cebp2Megdz7P8KbN2nG6uYgGaGgDh";
+
 
 
 
