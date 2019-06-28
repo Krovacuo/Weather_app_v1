@@ -50,11 +50,12 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    min-height: 80vh;
     width: 100vw;
     background-color: #6fe7dd;
     font-family: 'Acme', sans-serif;
     color: #fff;
+    overflow-y: scroll;
 }
 
 /************CURRENT CONDITION*************/
@@ -64,7 +65,7 @@
     flex-flow: column nowrap;
     align-items: center;
     text-align: center;
-    height: 220px;
+    height: 240px;
     width: 190px;
     margin: 10px;
     background-color: #3490de;
@@ -86,7 +87,7 @@
     
 }
 
-.condition_header button {
+.delete_city_btn {
      width: 20px;
      height: 20px;
      background-color: #ff5a62;
@@ -101,7 +102,53 @@
    
 }
 
+.forecast_btn {
+    margin: 6px 0;
+    font-family: 'Acme', sans-serif;
+    background-color: #6fe7dd;
+    border-color: #6fe7dd;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90px; 
+    height: 35px;
+    font-size: 1.1rem;
+}
 
+/************FORECAST*************/
+
+.current_forecast {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    height: 370px;
+    width: 190px;
+    margin: 10px;
+    background-color: #3490de;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.current_forecast img {
+    height: 110px;
+   
+}
+
+.go_back_container {
+    width: 100vw;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.go_back_btn {
+    width: 100px;
+    height: 25px;
+    background-color: #ff5a62;
+    border-color: #ff5a62;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
 
 /************FOOTER*************/
@@ -120,7 +167,30 @@
 
 
 
+/************MEDIA QUERIES*************/
 
+@media only screen and (max-width: 462px) {
+    
+    .header_container {
+        flex-flow: column nowrap;
+    }
+
+    .header_container h1{
+        font-size: 1.5rem;
+    }
+
+    .header_container input{
+        height: 25px;
+    }
+    
+    .header_container button{
+        width: 100px;
+        height: 25px;
+        font-size: 1rem;
+    }
+
+    
+  }
 
 
 
