@@ -12,15 +12,15 @@ An the final steps would be to port it to framework like angular or react and ma
 cloud firestore.
 
 The concepts or tools it uses as of now are:
+<ul>
+  <li>CSS3 flexbox</li>
+  <li>The html5 semantic tags</li>
+  <li>Asynchronous Javascript</li>
+  <li>Web Storage(localstorage) API</li>
+  <li>ES6 features(arrow functions, closures, IIFE, fetch API)</li>
+  <li>MVC pattern</li>
+</ul>
 
-*CSS3 flexbox
-*The html5 semantic tags
-*Asynchronous Javascript
-*Web Storage(localstorage) API
-*ES6 features(arrow functions, closures, IIFE, fetch API)
-*MVC pattern
 
-
-
-Thanks a lot for reading and have a nice day.
+Thanks a lot for reading and have a nice day.<br>
 Contact: benjamin.vm0@gmail.com
