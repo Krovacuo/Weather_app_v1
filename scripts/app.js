@@ -86,7 +86,7 @@ const UIController = (() => {
 
 })();
 
-var  key = "U01cebp2Megdz7P8KbN2nG6uYgGaGgDh";
+var  key = "";
 
 const WeatherController = (() => {
 
