@@ -1,8 +1,8 @@
 # Weather_app_v1
 A simple weather app
 
-This is a project i've been developing for sometime, while i learn more things in web development.
-So i've been most of the things i learned so far in here as you can see it's still a work in progress,
+This is a project i've been working for sometime, while i learn more things about web development.
+So i've been using most of the things i learned so far in here as you can see it's still a work in progress,
 since i will keep adding more features as i learn more things.
 
 This purpose of this app is to check the weather and forecast of a city, right now it does the job, but it still
